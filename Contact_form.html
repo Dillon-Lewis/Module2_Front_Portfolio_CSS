@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="Contact_form.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="header">
+                    <h1>Connect with me</h1>
+            </div>
+
+            <div class="NavBar">
+                <nav>
+                    <ul>
+                        <li><a href="http://127.0.0.1:5500/index.html">Homepage</a></li>
+                        <li><a href="http://127.0.0.1:5500/about_me.html">About Me</a></li>
+                        <li><a href="http://127.0.0.1:5500/resume.html">Resume</a></li>
+                        <li><a href="http://127.0.0.1:5500/Portfolio.html">Portfolio</a></li>
+                        <li><a href="http://127.0.0.1:5500/Blog_Testimonials.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="form">
+                <form action="/submit" method="post">
+
+                        <label for="name">Please enter your name: </label>
+                        <input type="text" id="name" placeholder="name" required="yes" aria-label="Please enter your name">
+                        <br><br>
+
+                        <label for="email">Please enter your email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required="yes" aria-label="Enter your email">
+                        <br><br>
+                    
+                        <label for="phone">Please enter your phone number: </label>
+                        <input type="number" id="phone" name="phone" placeholder="xxx-xxx-xxxx" maxlength="10" aria-label="Please enter your phone number">
+                        <br><br>
+
+                        <label for="information">What are your questions/concerns:</label><br>
+                        <textarea id="information"  name="information" rows="4" cols="50" placeholder="Enter response here" aria-label="What are your questions and concerns"></textarea>
+                        <br><br>
+
+                        <input type="submit" value="submit">
+                </form>
+            </div>
+
+            <div class="image">
+                <img src="ProfilePic.jpeg" alt="Profile Picture">
+            </div>
+
+            <div class="footer">
+                <p>&copy; 2024 Dillon Lewis. All rights reserved.</p>
+            </div>
+
+        </div>
+        
+    </main>
+
+</body>
+</html>
